@@ -11,4 +11,8 @@ tags = bs.find_all(lambda tag: tag.get_text() == 'Or maybe he\'s only resting?')
 #print(tags)
 
 tags = bs.find_all('', text='Or maybe he\'s only resting?')
-print(tags)
+#print(tags)
+
+tags =bs.find_all( id = 'gift.*').find(('td')[0]) 
+for tag in tags:
+    print([tag])
