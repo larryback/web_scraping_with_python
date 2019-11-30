@@ -13,5 +13,5 @@ driver = webdriver.Chrome(executable_path=r'C:/Chrome_Driver/chromedriver_win32/
 
 sleep(5)
 driver.get("http://www.auction.co.kr/")
-sleep(5)
-driver.find_element_by_xpath('//*[@id="headerloginveiw"]/a').click() # 로그인 버튼 클릭
+#sleep(5)
+#driver.find_element_by_xpath('//*[@id="headerloginveiw"]/a').click() # 로그인 버튼 클릭
